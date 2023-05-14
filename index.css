@@ -16,6 +16,37 @@ body {
   box-shadow: 5px 10px 10px rgb(0, 0, 0, 5%);
 }
 
+@media (max-width:600px) {
+
+  body{
+      margin:0;
+      padding: 0;
+  }
+
+  .container{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .left,.right{
+      width: 90vw;
+  }
+
+  .left{
+      border-radius: 0px 0px 50px 50px;
+  }
+
+  .left-score{
+      height: 80px;
+      width: 80px;
+  }
+
+  .right{
+      width: 75vw;
+  }
+}
+
 .left {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   padding: 20px;
